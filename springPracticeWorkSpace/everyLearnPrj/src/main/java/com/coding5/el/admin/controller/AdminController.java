@@ -6,13 +6,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("admin")
 @Controller
 public class AdminController {
+	// 로그인
 	@GetMapping("login")
 	public String login() {
 		return "admin/login";
 	}
 	
-	@GetMapping("main")
-	public String main() {
-		return "admin/main";
+	// 대시보드
+	@GetMapping("dashboard")
+	public String dashboard() {
+		return "admin/dashboard";
+	}
+	
+	// 학생회원 리스트 조회
+	@GetMapping("member/student/list")
+	public String studentList() {
+		return "admin/member/student/list";
+	}
+	
+	// 강사회원 리스트 조회
+	@GetMapping("member/teacher/list")
+	public String teacherList() {
+		return "admin/member/teacher/list";
 	}
 }

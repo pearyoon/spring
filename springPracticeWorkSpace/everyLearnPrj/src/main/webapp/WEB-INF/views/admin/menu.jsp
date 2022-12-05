@@ -15,17 +15,32 @@
         </div>
         <div class="menu-middle">
             <ul>
-                <li class="nav-items" id="nav-items-in">
+                <li class="nav-items">
                     <a href="">
                         <span>대시보드</span>
                         <i class="bi bi-chevron-compact-right"></i>
                     </a>
                 </li>
-                <li class="nav-items">
+                <li class="nav-items" id="member">
                     <a href="">
                         <span>회원관리</span>
                         <i class="bi bi-chevron-compact-right"></i>
                     </a>
+                    <div class="hidden-box" id="member-cate">
+                        <div class="detail-wrap">
+                            <ul>
+                                <li class="detail-cate" id="student">
+                                    <a href="">학생회원</a>
+                                </li>
+                                <li class="detail-cate" id="teacher">
+                                    <a href="">강사회원</a>
+                                </li>
+                                <li class="detail-cate">
+                                    <a href="">기업회원</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-items">
                     <a href="">
