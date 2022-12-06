@@ -8,13 +8,17 @@
 
 /* 검색 */
 .search-area{
-    padding: 15px;
+    padding: 0 0 15px 0;
 }
 
 .flex-area{
     display: flex;
     justify-content: end;
     align-items: center;
+}
+.checkbox-area{
+    border: 1px solid #dedede;
+    padding: 8px;
 }
 
 .flex-area{
@@ -28,7 +32,7 @@
     background: #fff;
 }
 .flex-area input[type=text]{
-    width: 180px;
+    width: 210px;
     height: 36px;
     border: 1px solid #dedede;
     background: #fff;
@@ -39,7 +43,7 @@ label{
     color: rgb(67, 67, 67);
 }
 
-.flex-area>button{
+#search-btn{
     min-width: 53px;
     height: 36px;
     background: #1187CF;
@@ -50,6 +54,7 @@ label{
     margin-left: -1rem;
     border: none;
 }
+
 
 /* 게시물들 */
 .list-title{
@@ -94,4 +99,22 @@ label{
     line-height: 1;
     font-size: 1rem;
     margin: 0 5px;
+}
+
+/* 메일보내기 버튼 */
+.mail-btn-area{
+    text-align: end;
+}
+
+#mail-btn{
+    height: 30px;
+    background: #005297;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-left: -1rem;
+    border: none;
+    vertical-align: middle;
+    margin-top: 10px;
 }

@@ -29,4 +29,16 @@ public class AdminController {
 	public String teacherList() {
 		return "admin/member/teacher/list";
 	}
+	
+	// 기업회원 리스트 조회
+	@GetMapping("member/corporate/list")
+	public String corpList() {
+		return "admin/member/corporate/list";
+	}
+	
+	// 강사회원 디테일 조회
+	@GetMapping("member/teacher/detail")
+	public String teacherDetail() {
+		return "admin/member/teacher/detail";
+	}
 }

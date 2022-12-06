@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>에브리런 - 강사회원</title>
 <link rel="stylesheet" href="/el/resources/css/admin/menu.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/teacher/list.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/common.css">
@@ -20,100 +20,92 @@
                     <form action="" method="get">
                         <div id="input-area">
                             <div class="flex-area">
-                                <div>
-                                    <div>
-                                        <div>상태</div>
+                                <div class="checkbox-area">
+                                    <div class="checkbox-top">
                                         <label>전체
                                             <input type="checkbox" name="status" value="all">
                                         </label>
-                                        <label>대기회원
+                                        <label>드로잉
+                                            <input type="checkbox" name="status" value="all">
+                                        </label>
+                                        <label>요리/베이킹
                                             <input type="checkbox" name="status" value="quit">
                                         </label>
-                                        <label>승인회원
+                                        <label>운동
                                             <input type="checkbox" name="status" value="blacklist">
                                         </label>
                                     </div>
-                                    <div>
-                                        <div>
-                                            <div>분야</div>
-                                            <label>전체
-                                                <input type="checkbox" name="status" value="blacklist">
-                                            </label>
-                                            <label>드로잉
-                                                <input type="checkbox" name="status" value="all">
-                                            </label>
-                                            <label>요리/베이킹
-                                                <input type="checkbox" name="status" value="quit">
-                                            </label>
-                                            <label>운동
-                                                <input type="checkbox" name="status" value="blacklist">
-                                            </label>
-                                        </div>
-                                        
-                                        <div>
-                                            <div></div>
-                                            <label>음악
-                                                <input type="checkbox" name="status" value="blacklist">
-                                            </label>
-                                            <label>IT
-                                                <input type="checkbox" name="status" value="blacklist">
-                                            </label>
-                                            <label>언어
-                                                <input type="checkbox" name="status" value="blacklist">
-                                            </label>
-                                            <label>금융/제테크
-                                                <input type="checkbox" name="status" value="blacklist">
-                                            </label>
-                                        </div>
-
+                                    <div class="checkbox-bottom">
+                                        <label>음악
+                                            <input type="checkbox" name="status" value="all">
+                                        </label>
+                                        <label>IT
+                                            <input type="checkbox" name="status" value="quit">
+                                        </label>
+                                        <label>언어
+                                            <input type="checkbox" name="status" value="blacklist">
+                                        </label>
+                                        <label>금융/제테크
+                                            <input type="checkbox" name="status" value="blacklist">
+                                        </label>
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="flex-area">
+                            <div class="btn-area">
                                 <div>
-                                    <select name="category">
-                                        <option value="id">아이디</option>
-                                        <option value="name">이름</option>
-                                    </select>
-                                    <input type="text" name="keyword">
+                                    <button id="wait-btn">승인대기</button>
                                 </div>
-                                <button>검색</button>
-
+                                <div class="flex-area">
+                                    <div>
+                                        <select name="category">
+                                            <option value="id">아이디</option>
+                                            <option value="name">이름</option>
+                                        </select>
+                                        <input type="text" name="keyword">
+                                    </div>
+                                    <button id="search-btn">검색</button>
+                                </div>
                             </div>
                         </div>
-
                     </form>
+
                 </div>
                 <div class="list-title">
-                    <div>선택</div>
+                    <div>
+                        <input type="checkbox" id="checkAll">
+                    </div>
                     <div>번호</div>
-                    <div>아이디</div>
                     <div>이름</div>
+                    <div>분야</div>
                     <div>이메일</div>
                     <div>전화번호</div>
-                    <div>상태</div>
+                    <div>승인상태</div>
                     <div>관리</div>
                 </div>
-                <ul>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
+                <form action="">
+                    <ul>
+                        <li>
+                            <div class="list-items">
+                                <div>
+                                    <input type="checkbox" id="check">
+                                    <label for="check"></label>
+                                </div>
+                                <div>1</div>
+                                <div>이강사</div>
+                                <div>IT</div>
+                                <div>user01@gmail.com</div>
+                                <div>010-1234-5678</div>
+                                <div>대기</div>
+                                <div>
+                                    <button>상세보기</button>
+                                </div>
                             </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>승인</div>
-                            <div>
-                                <button>상세보기</button>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                    <div class="mail-btn-area">
+                        <button id="mail-btn">승인</button>
+                    </div>
+                </form>
                 <nav class="page-area">
                     <ul>
                         <li>

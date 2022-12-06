@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>에브리런 - 학생회원</title>
 <link rel="stylesheet" href="/el/resources/css/admin/menu.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/student/list.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/common.css">
@@ -20,7 +20,7 @@
                     <form action="" method="get">
                         <div id="input-area">
                             <div class="flex-area">
-                                <div>
+                                <div class="checkbox-area">
                                     <label>전체
                                         <input type="checkbox" name="status" value="all">
                                     </label>
@@ -40,15 +40,16 @@
                                     </select>
                                     <input type="text" name="keyword">
                                 </div>
-                                <button>검색</button>
-
+                                <button id="search-btn">검색</button>
                             </div>
                         </div>
-
                     </form>
                 </div>
                 <div class="list-title">
-                    <div>선택</div>
+                    <div>
+                        <input type="checkbox" id="checkAll">
+                        <label for="checkAll"></label>
+                    </div>
                     <div>번호</div>
                     <div>아이디</div>
                     <div>이름</div>
@@ -57,188 +58,31 @@
                     <div>가입일시</div>
                     <div>관리</div>
                 </div>
-                <ul>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
+                <form action="">
+                    <ul>
+                        <li>
+                            <div class="list-items">
+                                <div>
+                                    <input type="checkbox" id="check">
+                                    <label for="check"></label>
+                                </div>
+                                <div>1</div>
+                                <div>user0123</div>
+                                <div>김유저</div>
+                                <div>user01@gmail.com</div>
+                                <div>010-1234-5678</div>
+                                <div>20221205</div>
+                                <div>
+                                    <button>수정</button>
+                                    <button>제한</button>
+                                </div>
                             </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-items">
-                            <div>
-                                <input type="checkbox" id="check">
-                                <label for="check"></label>
-                            </div>
-                            <div>1</div>
-                            <div>user0123</div>
-                            <div>김유저</div>
-                            <div>user01@gmail.com</div>
-                            <div>010-1234-5678</div>
-                            <div>20221205</div>
-                            <div>
-                                <button>수정</button>
-                                <button>제한</button>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                    <div class="mail-btn-area">
+                        <button id="mail-btn">제한</button>
+                    </div>
+                </form>
                 <nav class="page-area">
                     <ul>
                         <li>

@@ -1,3 +1,7 @@
+#dashboard{
+    background-color: #005297;
+}
+
 main *{
     --border: 1px solid black;
 }
