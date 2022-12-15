@@ -7,7 +7,7 @@
 <title>에브리런 - 기업회원</title>
 <link rel="stylesheet" href="/el/resources/css/admin/menu.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/corporate/list.css">
-<link rel="stylesheet" href="/el/resources/css/admin/member/common.css">
+<link rel="stylesheet" href="/el/resources/css/admin/member/common/list.css">
 </head>
 <body>
 	<div class="wrap">

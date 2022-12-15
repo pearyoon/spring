@@ -70,3 +70,20 @@
     color: rgb(51, 51, 51);
 }
 
+.btn-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wait-btn{
+    height: 30px;
+    background: #005297;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-right: -1rem;
+    border: none;
+    vertical-align: middle;
+}

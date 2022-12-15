@@ -7,7 +7,7 @@
 <title>에브리런 - 학생회원</title>
 <link rel="stylesheet" href="/el/resources/css/admin/menu.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/student/list.css">
-<link rel="stylesheet" href="/el/resources/css/admin/member/common.css">
+<link rel="stylesheet" href="/el/resources/css/admin/member/common/list.css">
 </head>
 <body>
 	<div class="wrap">
@@ -32,15 +32,20 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="flex-area">
+                            <div class="btn-area">
                                 <div>
-                                    <select name="category">
-                                        <option value="id">아이디</option>
-                                        <option value="name">이름</option>
-                                    </select>
-                                    <input type="text" name="keyword">
+                                    <button id="wait-btn">신고회원</button>
                                 </div>
-                                <button id="search-btn">검색</button>
+                                <div class="flex-area">
+                                    <div>
+                                        <select name="category">
+                                            <option value="id">아이디</option>
+                                            <option value="name">이름</option>
+                                        </select>
+                                        <input type="text" name="keyword">
+                                    </div>
+                                    <button id="search-btn">검색</button>
+                                </div>
                             </div>
                         </div>
                     </form>

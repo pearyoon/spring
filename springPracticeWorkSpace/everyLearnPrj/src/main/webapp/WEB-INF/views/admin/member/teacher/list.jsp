@@ -7,7 +7,7 @@
 <title>에브리런 - 강사회원</title>
 <link rel="stylesheet" href="/el/resources/css/admin/menu.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/teacher/list.css">
-<link rel="stylesheet" href="/el/resources/css/admin/member/common.css">
+<link rel="stylesheet" href="/el/resources/css/admin/member/common/list.css">
 </head>
 <body>
 	<div class="wrap">
@@ -97,7 +97,8 @@
                                 <div>010-1234-5678</div>
                                 <div>대기</div>
                                 <div>
-                                    <button>상세보기</button>
+                                    <button>상세</button>
+                                    <button>승인</button>
                                 </div>
                             </div>
                         </li>

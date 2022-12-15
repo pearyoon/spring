@@ -7,7 +7,7 @@
 <title>에브리런 - 강사회원</title>
 <link rel="stylesheet" href="/el/resources/css/admin/menu.css">
 <link rel="stylesheet" href="/el/resources/css/admin/member/teacher/detail.css">
-<link rel="stylesheet" href="/el/resources/css/admin/member/common.css">
+<link rel="stylesheet" href="/el/resources/css/admin/member/common/detail.css">
 </head>
 <body>
 	<div class="wrap">
@@ -24,6 +24,10 @@
                             <div>
                                 <img src="/el/resources/img/admin/profile.png" alt="프로필사진" width="150" height="200">
                             </div>
+                        </div>
+                        <div class="flex-items">
+                            <div>이름</div>
+                            <div>이강사</div>
                         </div>
                         <div class="flex-items">
                             <div>아이디</div>
@@ -58,8 +62,13 @@
                             <div>자기소개</div>
                             <div id="intro-content">
                                 안녕하세요. 저는 드로잉공부 어쩌구저쩌구 울라블라블루짱입니다. <br>
-                                파랑파랑~~
+                                파랑파랑~~ <br>
+                                짱~~~
                             </div>
+                        </div>
+                        <div class="btn-area">
+                            <button id="refusal-btn">탈락</button>
+                            <button id="approval-btn">승인</button>
                         </div>
                     </div>
                 </div>

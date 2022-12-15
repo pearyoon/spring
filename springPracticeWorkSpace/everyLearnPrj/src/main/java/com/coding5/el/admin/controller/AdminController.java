@@ -41,4 +41,10 @@ public class AdminController {
 	public String teacherDetail() {
 		return "admin/member/teacher/detail";
 	}
+	
+	// 기업회원 디테일 조회
+	@GetMapping("member/corporate/detail")
+	public String corporateDetail() {
+		return "admin/member/corporate/detail";
+	}
 }
